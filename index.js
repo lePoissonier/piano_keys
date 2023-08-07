@@ -16,4 +16,4 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
-// for first commi
+// for first commit
