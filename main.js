@@ -11,6 +11,10 @@ function keyPlay(event) {
   event.target.style.backgroundColor ='aqua';
 }
 
+function keyReturn(event) {
+  event.target.style.backgroundColor= '';
+}
+
 // Write a named function with event handler properties
 
 
