@@ -74,6 +74,7 @@ nextThree.onclick = function() {
   document.getElementById('word-four').innerHTML = "DAY-";
   document.getElementById('word-five').innerHTML = "TO-";
   document.getElementById('word-six').innerHTML = "YOU-";
+  lastLyric.style.display ='none';
 }
 
 // This is the event handler property and function for the startOver button
