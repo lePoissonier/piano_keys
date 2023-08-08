@@ -68,7 +68,12 @@ nextTwo.onclick = function() {
 nextThree.onclick = function() {
   startOver.hidden = false;
   nextThree.hidden = true;
-  
+  document.getElementById('word-one').innerHMTL = "HAP-";
+  document.getElementById('word-two').innerHTML = "PY-";
+  document.getElementById('word-three').innerHTML = "BIRTH-";
+  document.getElementById('word-four').innerHTML = "DAY-";
+  document.getElementById('word-five').innerHTML = "TO-";
+  document.getElementById('word-six').innerHTML = "YOU-";
 }
 
 // This is the event handler property and function for the startOver button
